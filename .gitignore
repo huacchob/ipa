@@ -2,3 +2,4 @@
 *.undodir/
 .venv/
 *.venv/
+.qodo

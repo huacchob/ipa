@@ -1,0 +1,26 @@
+{
+    "cookiecutter": {
+        "codeowner_github_usernames": "",
+        "full_name": "Network to Code, LLC",
+        "email": "info@networktocode.com",
+        "github_org": "nautobot",
+        "app_name": "ipa",
+        "verbose_name": "Ipa",
+        "app_slug": "ipa",
+        "project_slug": "nautobot-app-ipa",
+        "repo_url": "https://github.com/nautobot/nautobot-app-ipa",
+        "base_url": "ipa",
+        "min_nautobot_version": "2.4.7",
+        "max_nautobot_version": "2.9999.9999",
+        "camel_name": "Ipa",
+        "project_short_description": "Ipa",
+        "model_class_name": "IpaExampleModel",
+        "open_source_license": "Apache-2.0",
+        "docs_base_url": "https://docs.nautobot.com",
+        "docs_app_url": "https://docs.nautobot.com/projects/ipa/en/latest",
+        "_template": "git@github.com:nautobot/cookiecutter-nautobot-app.git",
+        "_output_dir": "/home/huacc/ntc/ipa",
+        "_repo_dir": "/home/huacc/.cookiecutters/cookiecutter-nautobot-app/nautobot-app",
+        "_checkout": null
+    }
+}
