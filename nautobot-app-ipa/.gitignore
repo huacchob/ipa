@@ -307,3 +307,6 @@ public
 /compose.yaml
 /dump.sql
 /ipa/static/ipa/docs
+.qodo
+.undodir/
+*.undodir/
