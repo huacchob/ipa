@@ -32,6 +32,7 @@ python = ">=3.9.2,<3.13"
 # Used for local development
 nautobot = "^2.4.7"
 nautobot-golden-config = "^2.4.0"
+routeros-api = "^0.21.0"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "*"
