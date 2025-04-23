@@ -1,4 +1,4 @@
-"""default network_importer API-based driver for Mikrotik RouterOS."""
+"""default network_importer API-based driver for Citrix Netscaler."""
 
 import json
 import ssl
@@ -29,14 +29,14 @@ if TYPE_CHECKING:
         from routeros_api.api import RouterOsApi
         from routeros_api.resource import RouterOsResource
 
-NETMIKO_DEVICE_TYPE = "mikrotik_routeros"
+NETMIKO_DEVICE_TYPE = "netscaler"
 
 
 class ModifiedMikrotikDriver(DefaultNautobotNornirDriver):
     """Simply override the config_command class attribute in the subclass."""
 
     config_command: str = "export terse verbose hide-sensitive"
-    tcp_port: int = 8729
+    # tcp_port: int = 8729
 
     api_config_command: list[str] = [
         "/system/identity",
