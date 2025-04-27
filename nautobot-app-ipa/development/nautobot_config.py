@@ -158,6 +158,9 @@ PLUGINS_CONFIG = {
             "trim_blocks": True,
             "lstrip_blocks": False,
         },
+        "custom_dispatcher": {
+            "netscaler": "netscaler_ext.netscaler_ext.NetScalerDriver",
+        },
         # "default_deploy_status": "Not Approved",
         # "get_custom_compliance": "my.custom_compliance.func"
     },

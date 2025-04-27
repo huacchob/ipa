@@ -27,6 +27,9 @@ include = [
     "ipa/static/ipa/docs/**/*",
 ]
 
+[tool.poetry.group.custom.dependencies]
+netscaler-ext = { git = "https://github.com/huacchob/netscaler_ext.git", rev = "4677bed25d258fd0dbcb87e54746a8e3bb3c7857" }
+
 [tool.poetry.dependencies]
 python = ">=3.9.2,<3.13"
 # Used for local development
