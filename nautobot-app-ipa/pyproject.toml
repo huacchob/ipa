@@ -28,13 +28,13 @@ include = [
 ]
 
 [tool.poetry.group.custom.dependencies]
-netscaler-ext = { git = "https://github.com/huacchob/nautobot-app-netscaler-ext.git", rev = "3a41184e992c0b6f64b5a601a55497ad6c0d9d25" }
+netscaler-ext = { git = "https://github.com/huacchob/nautobot-app-netscaler-ext.git", branch = "main" }
+nautobot-golden-config = { git = "https://github.com/huacchob/nautobot-app-golden-config.git", branch = "huacchob" }
 
 [tool.poetry.dependencies]
 python = ">=3.9.2,<3.13"
 # Used for local development
 nautobot = "^2.4.7"
-nautobot-golden-config = "^2.4.0"
 routeros-api = "^0.21.0"
 
 [tool.poetry.group.dev.dependencies]
