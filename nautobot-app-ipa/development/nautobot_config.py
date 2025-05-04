@@ -123,6 +123,7 @@ PLUGINS = [
     "ipa",
     "nautobot_plugin_nornir",
     "nautobot_golden_config",
+    "netscaler_ext",
 ]
 
 # Apps configuration settings. These settings are used by various Apps that the user may have installed.
