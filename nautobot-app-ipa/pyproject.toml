@@ -34,8 +34,7 @@ nautobot-golden-config = { git = "https://github.com/huacchob/nautobot-app-golde
 [tool.poetry.dependencies]
 python = ">=3.9.2,<3.13"
 # Used for local development
-nautobot = "^2.4.7"
-routeros-api = "^0.21.0"
+nautobot = "2.4.2"
 remote-pdb = "^2.1.0"
 
 [tool.poetry.group.dev.dependencies]

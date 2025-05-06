@@ -51,7 +51,7 @@ namespace = Collection("ipa")
 namespace.configure(
     {
         "ipa": {
-            "nautobot_ver": "2.4.7",
+            "nautobot_ver": "2.4.2",
             "project_name": "ipa",
             "python_ver": "3.11",
             "local": False,
