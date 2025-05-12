@@ -150,7 +150,7 @@ PLUGINS_CONFIG = {
         "enable_sotagg": True,
         "enable_plan": True,
         "enable_deploy": True,
-        "enable_postprocessing": False,
+        "enable_postprocessing": True,
         "sot_agg_transposer": None,
         "postprocessing_callables": [],
         "postprocessing_subscribed": [],
