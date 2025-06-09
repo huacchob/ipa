@@ -3328,7 +3328,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-netscaler-ext.git"
 reference = "main"
-resolved_reference = "a811ddf1ac78fed2ac2fbbf6eb98fafcedbca731"
+resolved_reference = "1b01dae3c8f23f1c65b1ef884e30862a0fe80030"
 
 [[package]]
 name = "netutils"
