@@ -162,6 +162,7 @@ PLUGINS_CONFIG = {
         "custom_dispatcher": {
             "netscaler": "netscaler_ext.plugins.tasks.dispatcher.netscaler_ext.NetScalerDriver",
             "cisco_nxos": "netscaler_ext.plugins.tasks.dispatcher.nxos_ext.NetmikoCiscoNxos",
+            "meraki_controller": "netscaler_ext.plugins.tasks.dispatcher.meraki_dispatcher.MerakiDispatcher",
         },
         # "default_deploy_status": "Not Approved",
         # "get_custom_compliance": "my.custom_compliance.func"

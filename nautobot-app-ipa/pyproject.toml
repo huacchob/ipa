@@ -32,7 +32,7 @@ netscaler-ext = { git = "https://github.com/huacchob/nautobot-app-netscaler-ext.
 nautobot-golden-config = { git = "https://github.com/huacchob/nautobot-app-golden-config.git", branch = "huacchob" }
 
 [tool.poetry.dependencies]
-python = ">=3.9.2,<3.13"
+python = ">=3.10,<3.13"
 # Used for local development
 nautobot = "2.4.2"
 remote-pdb = "^2.1.0"
