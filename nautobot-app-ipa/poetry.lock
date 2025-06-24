@@ -2323,6 +2323,18 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "jmespath"
+version = "1.0.1"
+description = "JSON Matching Expressions"
+optional = false
+python-versions = ">=3.7"
+groups = ["main", "custom"]
+files = [
+    {file = "jmespath-1.0.1-py3-none-any.whl", hash = "sha256:02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"},
+    {file = "jmespath-1.0.1.tar.gz", hash = "sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe"},
+]
+
+[[package]]
 name = "jsonschema"
 version = "4.24.0"
 description = "An implementation of JSON Schema validation for Python"
@@ -3446,6 +3458,7 @@ files = []
 develop = false
 
 [package.dependencies]
+jmespath = "*"
 meraki = "^2.0.3"
 nautobot = "2.4.2"
 nautobot-golden-config = "^2.4.0"
@@ -3460,7 +3473,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-netscaler-ext.git"
 reference = "main"
-resolved_reference = "7d3d64ed6bfe27a4d6574e8a185142ffd655cb73"
+resolved_reference = "947f850d92e630846c6b447856b3b38317fd53df"
 
 [[package]]
 name = "netutils"
@@ -6187,4 +6200,4 @@ all = []
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.13"
-content-hash = "40815a402a402814c11987420d17946514ab6112b64a162a00a24be27c73b488"
+content-hash = "4d34cfe179c519ffa9097a5bb8cefb16511b0531c26f964598d2cb6f19cfd3bd"

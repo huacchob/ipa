@@ -40,6 +40,7 @@ meraki = "^2.0.3"
 nornir = "^3.5.0"
 nautobot-plugin-nornir = {git = "https://github.com/huacchob/nautobot-app-nornir.git", branch = "http_access_type"}
 nautobot-golden-config = {git = "https://github.com/huacchob/nautobot-app-golden-config.git", branch = "huacchob"}
+jmespath = "*"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "*"
