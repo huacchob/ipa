@@ -3391,7 +3391,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-nornir.git"
 reference = "http_access_type"
-resolved_reference = "ff0ce36d3d65a026e20dec6b180368148478dadc"
+resolved_reference = "8d8658b403c339ad75a450c6266107caeec2202a"
 
 [[package]]
 name = "ncclient"
@@ -3473,7 +3473,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-netscaler-ext.git"
 reference = "main"
-resolved_reference = "947f850d92e630846c6b447856b3b38317fd53df"
+resolved_reference = "5c57b37dac531ff6e7d15b45ddea665176f152a6"
 
 [[package]]
 name = "netutils"
