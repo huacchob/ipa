@@ -3835,7 +3835,7 @@ develop = false
 [package.dependencies]
 jmespath = "*"
 meraki = "*"
-nautobot = "2.4.2"
+nautobot = {version = "2.4.2", markers = "python_version == \"3.9\""}
 nautobot-golden-config = "^2.4.0"
 nautobot-plugin-nornir = "^2.2.1"
 nornir = "^3.5.0"
@@ -3848,7 +3848,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-netscaler-ext.git"
 reference = "main"
-resolved_reference = "d3b35ae5ed7921b692ea8fb3fc8e67a35383b905"
+resolved_reference = "8f75a439e3ba2a1e710c933980bb7f9acd3e3296"
 
 [[package]]
 name = "netutils"
