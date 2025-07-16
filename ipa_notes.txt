@@ -1,0 +1,47 @@
+Netscaler
+- Netscaler uses the Nitro API to query data from ADC devices (previously known as Netscaler)
+- There is no official Python SDK to interface with Netscaler devices that is up to date
+- This is the Nitro API documentation https://developer-docs.netscaler.com/en-us/adc-nitro-api/current-release/api-reference
+- Base url for API is http://hostname/nitro/v1
+- Use the /config/login to get the session ID, which is the token
+- Is ssh enabled?
+
+Meraki
+- This is the Meraki Python SDK https://github.com/meraki/dashboard-api-python
+- This is the API documentation https://developer.cisco.com/meraki/api-v1/overview/
+- example base url is https://hostname/api/v1 for API documentation
+- I need to have a Meraki API Key, which is generated the the dashboard by account
+- Need to be passed as a bearer token `Authorization: Bearer YOUR_API_KEY`
+
+vManage
+- This is the vManage API documentation https://developer.cisco.com/docs/sdwan/20-11/sd-wan-vmanage-v20-11/
+- This is the latest python SDK https://github.com/CiscoDevNet/python-viptela/tree/master
+- Sample script
+`
+from vmanage.api.authentication import Authentication
+from vmanage.api.device import Device
+
+# Set your vManage credentials and host
+vmanage_host = "your_vmanage_host"
+vmanage_username = "your_username"
+vmanage_password = "your_password"
+
+# Authenticate
+auth = Authentication(host=vmanage_host, user=vmanage_username, password=vmanage_password).login()
+
+# Initialize the Device API
+device_api = Device(auth, vmanage_host)
+
+# Retrieve device configurations
+device_configs = device_api.get_device_config_list('all')
+
+# Print device hostnames
+for device in device_configs:
+    print(device.get('host-name'))
+`
+
+WTI Remote Console
+- WTI stands for Western Telematic inc
+- It is a network connected OOBM device
+- This is the WTI API Documentation https://ftp.wti.com/pub/TechSupport/Restful_WTI/current/api/api.html
+- This is the community developed WTI Python SDK https://github.com/melihteke/wtisdk
