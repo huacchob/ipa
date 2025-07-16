@@ -43,9 +43,7 @@ class Migration(migrations.Migration):
                 ("description", models.CharField(blank=True, max_length=200)),
                 (
                     "tags",
-                    nautobot.core.models.fields.TagsField(
-                        through="extras.TaggedItem", to="extras.Tag"
-                    ),
+                    nautobot.core.models.fields.TagsField(through="extras.TaggedItem", to="extras.Tag"),
                 ),
             ],
             options={
