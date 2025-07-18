@@ -3851,7 +3851,7 @@ all = []
 type = "git"
 url = "https://github.com/huacchob/nautobot-app-netscaler-ext.git"
 reference = "main"
-resolved_reference = "73f869ebb2fab68ac05fe2ebf26093ce1b3beecd"
+resolved_reference = "97be8475606f79c09e6fd532f52f4d5ce327dfd7"
 
 [[package]]
 name = "netutils"
@@ -3983,7 +3983,7 @@ mikrotik-driver = ["routeros-api (>=0.17.0,<0.18.0)"]
 type = "git"
 url = "https://github.com/huacchob/nornir-nautobot.git"
 reference = "meraki_dispatchers"
-resolved_reference = "ae9353d7bf8c3075bad2781a620484b0fc02a4e4"
+resolved_reference = "c8957d25ed7f7239e22142bba9e658653d936650"
 
 [[package]]
 name = "nornir-netmiko"
