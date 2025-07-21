@@ -32,15 +32,15 @@ netscaler-ext = { git = "https://github.com/huacchob/nautobot-app-netscaler-ext.
 nornir-nautobot = { git = "https://github.com/huacchob/nornir-nautobot.git", branch = "meraki_dispatchers" }
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
+python = ">=3.9.2,<3.13"
 # Used for local development
-nautobot = "2.4.2"
+nautobot = "2.4.13"
 remote-pdb = "^2.1.0"
 pytz = "^2025.2"
 meraki = "*"
 nornir = "^3.5.0"
 nautobot-plugin-nornir = "^2.2.1"
-nautobot-golden-config = "^2.4.0"
+nautobot-golden-config = "2.4.1"
 jmespath = "*"
 
 [tool.poetry.group.dev.dependencies]
