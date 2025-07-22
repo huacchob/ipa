@@ -162,9 +162,7 @@ PLUGINS_CONFIG = {
         "custom_dispatcher": {
             "netscaler": "netscaler_ext.plugins.tasks.dispatcher.netscaler_ext.NetScalerDriver",
             "cisco_nxos": "netscaler_ext.plugins.tasks.dispatcher.nxos_ext.NetmikoCiscoNxos",
-            # "cisco_meraki": "netscaler_ext.plugins.tasks.dispatcher.cisco_meraki.NetmikoCiscoMeraki",
-            # "meraki_managed": "netscaler_ext.plugins.tasks.dispatcher.meraki_managed.NetmikoMerakiManaged",
-        },  # Workaround for now, need to make nautobot-nornir recognize this as a valid dispatcher to platform mapper
+        },
         "get_custom_remediation": "netscaler_ext.plugins.tasks.remediation.custom_remediation.remediation_func",
         # "default_deploy_status": "Not Approved",
         # "get_custom_compliance": "my.custom_compliance.func"

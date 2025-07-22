@@ -51,9 +51,9 @@ namespace = Collection("ipa")
 namespace.configure(
     {
         "ipa": {
-            "nautobot_ver": "2.4.2",
+            "nautobot_ver": "2.4.13",
             "project_name": "ipa",
-            "python_ver": "3.11",
+            "python_ver": "3.10",
             "local": False,
             "compose_dir": os.path.join(os.path.dirname(__file__), "development"),
             "compose_files": [
