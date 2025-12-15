@@ -12,7 +12,6 @@ keywords = ["nautobot", "nautobot-app", "nautobot-plugin"]
 classifiers = [
     "Intended Audience :: Developers",
     "Development Status :: 5 - Production/Stable",
-    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -30,17 +29,19 @@ netscaler-ext = { git = "https://github.com/huacchob/nautobot-app-netscaler-ext.
 nornir-nautobot = { git = "https://github.com/huacchob/nornir-nautobot.git", branch = "meraki_dispatchers" }
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.13"
+python = ">=3.11,<3.13"
 # Used for local development
-nautobot = "2.4.13"
+nautobot = ">=3.0.0,<4.0.0"
 remote-pdb = "^2.1.0"
 pytz = "^2025.2"
 meraki = "*"
-nornir = "^3.5.0"
-nautobot-plugin-nornir = "^2.2.1"
-nautobot-golden-config = "2.4.1"
+nornir = "^3.3.0"
+nautobot-plugin-nornir = ">=3.0.0,<4.0.0"
+nornir-nautobot = ">=4.0.0,<5.0.0"
+nautobot-golden-config = "^3.0.0"
 jmespath = "*"
 xmltodict = "^0.14.2"
+virtualenv = "^20.33.1"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "*"
