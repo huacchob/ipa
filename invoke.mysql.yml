@@ -1,7 +1,7 @@
 ---
 ipa:
   project_name: "ipa"
-  nautobot_ver: "2.4.7"
+  nautobot_ver: "3.0.2"
   local: false
   python_ver: "3.11"
   compose_dir: "development"
